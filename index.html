@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Reenu Sihag</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="png" href="images/logo.png">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <link rel="stylesheet" href="css/index.css">
+
+  <!--project slide-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css'>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+
+
+  <!-- project box upper slide  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+
+  <!--skill graph-->
+  <script type="text/javascript" src="https://d3js.org/d3.v5.min.js"></script>
+  <script type="text/javascript" src="https://d3js.org/d3-selection-multi.v0.4.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+
+  <style>
+    .mySlidess {display:none}
+    .demooo {cursor:pointer}
+  </style>
+
+
+</head>
+
+<body >
+
+
+<div id="wrap">
+
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+    <img src="images/logo.png" class="loaderimg">
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>
+
+  <div id="bar">
+    <nav>
+      <ul>
+        <li><a class="smoothscroll oda" id="one" href="#i">01</a></li>
+        <li><a class="smoothscroll date" id="two" href="#s">02</a></li>
+        <li><a class="smoothscroll toyotomi" id="three" href="#p">03</a></li>
+        <li><a class="smoothscroll uesugi" id="four" href="#c">04</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!--introduction-->
+    <div id="i" class="introduction" >
+      <center><div class="row border-bottom border-info main-header " id="intro">
+
+        <div class="col-6 pt-2 "><center> <img class="logo" src="images/logo.png"><img class="pl-4 pt-1 logo-name" src="images/logo-name.png" ></center> </div>
+        <div class="col-1 pt-2">  </div>
+        <div class="col-4 contact"><a href="#c">Contact Us 24/7 &nbsp; &bigtriangledown;</a> </div>
+        <div class="col-auto ">
+          <div class="login-pic">
+            <i class="fas fa-code fa-2x"></i>
+          </div>
+        </div>
+
+      </div></center>
+
+      <!--nav bar-->
+      <center>
+        <header class="header">
+          <nav class="navbar">
+            <a href="https://www.hackerearth.com/@reenusihagdatta" class="nav-item" target="_blank">Competitive Coder</a>
+            <a href="https://github.com/reenusihag/games" class="nav-item" target="_blank">Game Developer</a>
+
+            <a href="https://github.com/reenusihag" class="nav-item is-active" target="_blank">Web Developer</a>
+            <a href="https://github.com/reenusihag" class="nav-item" target="_blank">Web Designer</a>
+            <span class="magic-line"></span>
+          </nav>
+        </header>
+      </center>
+
+      <div class="description">
+        <div class="user-pic">
+          <div class=" simpleLens-gallery-container " id="demo-1">
+            <div class="simpleLens-thumbnails-container pl-2">
+              <a href="#" class="simpleLens-thumbnail-wrapper user-pic-thumb"
+                 data-lens-image="demo/renu.jpg"
+                 data-big-image="demo/renu.jpg">
+                <img src="demo/renu.jpg" width="100%" height="100%">
+              </a><br>
+
+              <a href="#" class="simpleLens-thumbnail-wrapper user-pic-thumb"
+                 data-lens-image="demo/logo.png"
+                 data-big-image="demo/logo.png">
+                <img src="demo/logo.png" width="100%" style="padding-top: 6px">
+              </a><br>
+
+              <a href="#" class="simpleLens-thumbnail-wrapper user-pic-thumb"
+                 data-lens-image="demo/logo.png"
+                 data-big-image="demo/logo.png">
+                <img src="demo/logo.png" width="100%" style="padding-top: 6px">
+              </a>
+            </div>
+
+
+
+            <div class="simpleLens-container">
+              <div class="simpleLens-big-image-container">
+                <a class="simpleLens-lens-image" data-lens-image="demo/renu.jpg">
+                  <img src="demo/renu.jpg" class="simpleLens-big-image" width="100%" height="450px">
+                </a>
+              </div>
+            </div>
+
+            <!--hire now add to cart-->
+            <div class="btn-toolbar">
+
+              <div class="btn-group">
+                <a href="#c"><button type="button" class=" addbtn">ADD TO CART</button></a>
+              </div> &nbsp;
+              <div class="btn-group">
+                <a href="#c"><button type="button" class=" hirebtn">HIRE NOW</button></a>
+              </div>
+            </div>
+
+
+            <script type="text/javascript" src="js/jquery.simpleGallery.js"></script>
+            <script type="text/javascript" src="js/jquery.simpleLens.js"></script>
+
+            <script>
+                $(document).ready(function(){
+                    $('#demo-1 .simpleLens-thumbnails-container img').simpleGallery({
+                        loading_image: 'demo/images/loading.gif'
+                    });
+
+                    $('#demo-1 .simpleLens-big-image').simpleLens({
+                        loading_image: 'demo/images/loading.gif'
+                    });
+                });
+            </script>
+          </div>
+        </div>
+
+        <div class="user-pic-2">
+
+          <div class="w3-content" style="max-width:1200px">
+            <img class="mySlidess" src="demo/renu.jpg" style="width:100%; height: 400px">
+            <img class="mySlidess" src="demo/large/camper_21926_red.png" style="width:100%;height: 100%">
+            <img class="mySlidess" src="demo/large/camper_21926_red.png" style="width:100%">
+
+            <div class="w3-row-padding w3-section">
+              <div class="w3-col s4">
+                <img class="demooo w3-opacity w3-hover-opacity-off" src="demo/renu.jpg" style="width:100%" onclick="currentDiv(1)">
+              </div>
+              <div class="w3-col s4">
+                <img class="demooo w3-opacity w3-hover-opacity-off" src="demo/logo.png" style="width:100%" onclick="currentDiv(2)">
+              </div>
+              <div class="w3-col s4">
+                <img class="demooo w3-opacity w3-hover-opacity-off" src="demo/logo.png" style="width:100%" onclick="currentDiv(3)">
+              </div>
+            </div>
+
+            <div class="add-hire-btn">
+              <a href="#c">
+                <div class="add">
+                ADD TO CART
+               </div>
+              </a>
+              <a href="#c">
+                <div class="hire">
+                  HIRE NOW
+                </div>
+              </a>
+            </div>
+
+          </div>
+
+          <script>
+              var slideIndex = 1;
+              showDivs(slideIndex);
+
+              function plusDivs(n) {
+                  showDivs(slideIndex += n);
+              }
+
+              function currentDiv(n) {
+                  showDivs(slideIndex = n);
+              }
+
+              function showDivs(n) {
+                  var i;
+                  var x = document.getElementsByClassName("mySlidess");
+                  var dots = document.getElementsByClassName("demooo");
+                  if (n > x.length) {slideIndex = 1}
+                  if (n < 1) {slideIndex = x.length}
+                  for (i = 0; i < x.length; i++) {
+                      x[i].style.display = "none";
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                      dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+                  }
+                  x[slideIndex-1].style.display = "block";
+                  dots[slideIndex-1].className += " w3-opacity-off";
+              }
+          </script>
+
+        </div>
+
+
+        <div class="contentContainer-des ">
+          <div class="content">
+            <div class="header"><span class="first"><div class="user-desc">
+
+                          <div class="description-linked-line1"><div class="description-line1"> YMCAUST </div> &nbsp; >&nbsp; <div class="description-line1"> &nbsp;IT&nbsp; </div>    > <div class="description-line1">&nbsp;Web Developer ...</div></div>
+                          <div class="des-line2 ">Reenu, Web Developer</div>
+                          <div class="des-line3-rbutton">4.7 &starf;</div>&nbsp;
+                          <span class="des-line3-rating"> 103 Ratings & 287 Reviews</span>
+                          <div class="des-line4-discount" >Upto 1% off</div>
+                          <span class="des-line5-price "><strike>₹ 9,99,999</strike></span><br>
+                          <div class="des-line5-hurry " >Hurry !</div>
+
+                          <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTIuOCAyLjEzM2gyLjcwNGMuMjc0IDAgLjQ5Ni4yMTguNDk2LjQ5NHYxMi44OGEuNDk4LjQ5OCAwIDAgMS0uNDk2LjQ5M0guNDk2QS40OTMuNDkzIDAgMCAxIDAgMTUuNTA2VjIuNjI2YzAtLjI3Mi4yMjYtLjQ5My40OTYtLjQ5M0gzLjJWMGgyLjEzM3YyLjEzM2g1LjMzNFYwSDEyLjh2Mi4xMzN6TTIuMTMzIDYuNGgxMS43MzR2Ny40NjdIMi4xMzNWNi40ek05LjYgOS42aDIuMTMzdjIuMTMzSDkuNlY5LjZ6IiBmaWxsPSIjMzg4ZTNjIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4K" height="15px"  >
+                          &nbsp;<span class="offer">EMIs from ₹ 83,000/month</span>
+                          <br>
+                          <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTUiIHZpZXdCb3g9IjAgMCAxNCAxNSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PGRlZnM+PHBhdGggaWQ9ImEiIGQ9Ik0wIC4yNTZoMTMuOTJ2MTMuOTdIMCIvPjwvZGVmcz48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnPjxtYXNrIGlkPSJiIiBmaWxsPSIjZmZmIj48dXNlIHhsaW5rOmhyZWY9IiNhIi8+PC9tYXNrPjxwYXRoIGQ9Ik0uMDQzLjg3NUwwIDcuMjAyYzAgLjE1NS4wNi4zMDQuMTcuNDEzbDYuMzk3IDYuNDIyYy4yNTIuMjUyLjY2LjI1Mi45MSAwbDYuMjU0LTYuMjc1Yy4yNTMtLjI1My4yNTMtLjY2MiAwLS45MTVMNy4zMzQuNDI3Yy0uMTEtLjExLS4yNTgtLjE3Mi0uNDEyLS4xN0wuNjE3LjNDLjMuMzAyLjA0Ni41NTguMDQzLjg3NSIgZmlsbD0iIzM4OGUzYyIgbWFzaz0idXJsKCNiKSIvPjwvZz48cGF0aCBkPSJNMy42MTcgNS40MTdjLS44MzcgMC0xLjUxNi0uNjgtMS41MTYtMS41MnMuNjgtMS41MjMgMS41MTctMS41MjNjLjgzOCAwIDEuNTE2LjY4MiAxLjUxNiAxLjUyMnMtLjY3OCAxLjUyLTEuNTE2IDEuNTJ6IiBmaWxsPSIjRkZGIi8+PC9nPjwvc3ZnPgo=" height="15px" >
+                          &nbsp;<span class="offer " >Special edition. Hurry!   </span>
+                            <br>
+                          <div class="aval" >Available <div class="aval-loc"> <i class="fas fa-plane"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Worldwide &nbsp;&nbsp; <i class="far fa-calendar-alt" style="color: #2874f0"></i></div></div>
+                          <div class="ava-view">Available under 20-30 days</div>
+
+
+
+                          <hr class="des-hrline1" width="450px" align="left">
+                          <div class="des-heading2" >Currently available</div>
+                          <div class="des-heading2-des" >Now you have great chance to hire this workforce.</div>
+                          <div class="copy">
+                              <div class="ab1">Creative Developer cum Coder with experience in the same</div>
+                              <div class="ab2">Proactive team player with great written and verbal communication skills</div>
+                              <div class="ab3">Able to work in a high-stress, fast-paced environment</div>
+                              <div class="ab4">Skilled at operating in a wide range of platforms.</div>
+                              <div class="ab5">Able to Learn and Master New Information.</div>
+                          </div>
+
+                        </div>
+                            </span>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+    </div>
+
+  <!-- skills -->
+  <div id="s">
+    <div class="contentContainer-skill">
+      <div id="particles-js"></div>
+      <div class="content skill-des">
+        <h1 class="header "><span class="first">Skills :</span> <br></h1>
+        <p class="copy">The person who knows nothing<br>has power to do anything. </p>
+        <div class="skill-graph-img ">
+          <img src="images/2.png"><span class="skill-lang">C++</span>
+          <img src="images/2.png"><span class="skill-lang">CSS</span>
+          <img src="images/3.png"><span class="skill-lang">Node.js</span>
+          <img class="pl-1" src="images/3.png"><span class="skill-lang">&nbsp;&nbsp;&nbsp;&nbsp;JS</span>&nbsp;&nbsp;&nbsp;&nbsp;
+          <img class="p--18" src="images/2.png"><span class="skill-lang">HTML</span>
+          <img class="p--20" src="images/3.png"><span class="skill-lang" >&nbsp;jQuery</span>
+
+
+        </div>
+
+      </div>
+
+      <div class="chart-wrapper " id="skill"></div>
+
+    </div>
+
+    <div class="imageContainer">
+      <div class="image dateImg"> </div>
+    </div>
+  </div>
+
+  <!-- projects -->
+  <div id="p">
+    <div class="contentContainer-project">
+      <div class="content">
+        <h1 class="header"><span class="first">Projects :</span> <br>
+        </h1><br>
+        <center><div class="project-box">
+
+          <section class="swiper-container loading">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" data-test-set="test" style="background-image:url(http://www.tourism4development2017.org/wp-content/uploads/2017/07/dreamstime_m_92050452-e1499161709550.jpg)">
+                <img src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLbVhsNzdIYmlfN1E" class="entity-img" />
+                <div class="content">
+                  <p class="title">VOX</p>
+                  <span class="caption">VOX is a personal virtual assistant. The assistant uses voice queries to answer questions, to access whole computer and internet.  </span>
+                </div>
+              </div>
+              <div class="swiper-slide" style="background-image:url(https://raw.githubusercontent.com/storyofcoder/green-mart/master/veg-mart-2.jpg)">
+                <img src="https://github.com/storyofcoder/green-mart/blob/master/veg-mart-1.jpg" class="entity-img" />
+                <div class="content">
+                  <p class="title" style="color: darkgreen">Green-Veg</p>
+                  <span class="caption" style="color:green">Green-Mart is an online supermarket for all your daily needs. Online shopping now made easy with a wide range of variety.</span>
+                </div>
+              </div>
+              <div class="swiper-slide" style="background-image:url(https://raw.githubusercontent.com/storyofcoder/chat-buzz/master/home.jpg)">
+                <img src="https://raw.githubusercontent.com/storyofcoder/chat-buzz/master/home.jpg" class="entity-img" />
+                <div class="content">
+                  <p class="title" style="color: whitesmoke">Chat-Buzz</p>
+                  <span class="caption"　>Chat-Buzz is social network app that help persons to start conversation with unknown person, according to their vicinity filled by the user. </span>
+                </div>
+              </div>
+              <div class="swiper-slide" style="background-image:url(https://raw.githubusercontent.com/reenusihag/squat/master/squat.jpg)">
+                <img src="https://raw.githubusercontent.com/reenusihag/squat/master/squat.jpg" class="entity-img" />
+                <div class="content">
+                </div>
+              </div>
+              <div class="swiper-slide" style="background-image:url(https://github.com/storyofcoder/games/blob/master/game.jpg?raw=true)">
+                <img src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLNXBIcEdOUFVIWmM" class="entity-img" />
+                <div class="content">
+                  <p class="title">Games</p>
+                  <span class="caption">Various Games design with CSS & JavaScript ( Typus, Bonny_tail, Look_alike, etc.. ) </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev swiper-button-white"></div>
+            <div class="swiper-button-next swiper-button-white"></div>
+          </section>
+
+        </div></center></p>
+
+      </div>
+    </div>
+    <div class="imageContainer">
+      <div class="image toyotomiImg"> </div>
+    </div>
+  </div>
+
+
+  <!-- contact -->
+  <div id="c" class="contact-class">
+    <div class="contentContainer">
+      <div class="content">
+        <div class="header"><span class="first">
+                  <div class="lettalk"><h1>Let's talk</h1></div>
+              <hr class="talkhr"><br><br>
+              <hr class="guide-hr">
+
+                </span> <br>
+        </div>
+        <p class="copy">
+
+          Tell me about your company or startup.<br>
+          In which role do you see me?<br>
+          Do you require me to work locally or remotely?
+
+        </p>
+
+      </div>
+
+      <div class="contact-detail-right">
+
+        <span class="nameheading cfont f13 pt-2">Why don't we start with your name?</span><br>
+        <input  id="name" name="name" class="c-name"  placeholder="Type your name"  type="text" required><br><br>
+        <div class="c-email-heading cfont f13">Your Email</div>
+        <input placeholder="Your Email Address" class="c-email" id="email" name="email" type="email"  value="" required >
+        <div class="c-msg cfont f13">What's on your mind ?</div>
+        <textarea id="msg" name="msg" placeholder="What needs to be done and in how much time." rows="3" cols="30" class="c-msgbox mt-3"  style=" font-size: 20px;height:90px !important; " required></textarea><br>
+        <input  id="button" type="submit" value="Get in touch!" class="c-send mt-2">
+        <p id="response"></p>
+        <div class="contact-link">
+          <a href="https://www.github.com/reenusihag" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100006315721034" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="imageContainer">
+      <div class="image uesugiImg"> </div>
+    </div>
+  </div>
+
+
+
+</div>
+
+
+
+
+<!--project slide js-->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js'></script>
+<script  src="js/3dslide.js"></script>
+
+<!--skills - graph-->
+<script type="text/javascript" src="js/chart-script.js"></script>
+
+<!--skills background js-->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js'></script>
+<script  src="js/skill-bg.js"></script>
+
+<!--scrollbar or navbar-->
+<script  src="js/scrollbar.js"></script>
+
+<!--nav bar js-->
+<script src="js/nav.js"></script>
+
+<script src="js/main.js"></script>
+
+</body>
+
+</html>
