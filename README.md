@@ -1,15 +1,22 @@
-# Square 
+# Portfolio
 
-``` Square is an online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets. It functions as an online code editor and open-source learning environment, where developers can create code snippets, creatively named "square", and test them. ```
+``` A intractive web page that describe my skills and projects ```
+<br>
 
-
-### Demo
-![Demo_image](https://github.com/reenusihag/reenusihag.github.io/blob/master/Square.jpg)
+ on : https://reenusihag.github.io/
 
 ### Using
 
--Bootstrap <br />
+-Node.js <br />
 -JQuery <br />
--Code mirror
+-Bootstrap <br />
+-JavaScript <br />
+-etc.. <br />
+
+### Contact
+
+-Email : reenusihagdatta@gmail.com <br />
+-protfolio :  https://reenusihag.github.io/ <br />
+
 
 ``` By: Reenu Sihag ```
